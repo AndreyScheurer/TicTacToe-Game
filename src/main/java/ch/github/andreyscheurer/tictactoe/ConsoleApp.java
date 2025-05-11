@@ -5,7 +5,7 @@
  * prohibition includes uploading this file, in whole or in part, to any AI services,
  * including but not limited to ChatGPT.
  */
-package ch.bfh.bti3001.quadstrike;
+package ch.github.andreyscheurer.tictactoe;
 
 /**
  * This is the main class for running the QuadStrike game in the console. It can be launched by calling then

@@ -9,7 +9,7 @@ module quadstrike {
     requires javafx.controls;
     requires javafx.fxml;
 
-    opens ch.bfh.bti3001.quadstrike to javafx.fxml;
+    opens ch.github.andreyscheurer.tictactoe to javafx.fxml;
 
-    exports ch.bfh.bti3001.quadstrike;
+    exports ch.github.andreyscheurer.tictactoe;
 }

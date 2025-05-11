@@ -1,4 +1,4 @@
-package ch.bfh.bti3001.quadstrike;
+package ch.github.andreyscheurer.tictactoe;
 
 import java.util.List;
 import java.util.Scanner;

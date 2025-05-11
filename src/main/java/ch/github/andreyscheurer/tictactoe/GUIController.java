@@ -1,4 +1,4 @@
-package ch.bfh.bti3001.quadstrike;
+package ch.github.andreyscheurer.tictactoe;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.*;

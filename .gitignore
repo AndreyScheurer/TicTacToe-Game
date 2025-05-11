@@ -1,3 +1,4 @@
+# Maven build output
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -5,6 +6,7 @@ target/
 
 ### IntelliJ IDEA ###
 /.idea/
+*.iml           # IntelliJ-Projektdateien
 
 ### Eclipse ###
 .apt_generated
@@ -30,3 +32,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Windows
+Thumbs.db

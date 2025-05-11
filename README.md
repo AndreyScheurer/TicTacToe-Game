@@ -398,7 +398,7 @@ your IDE, the dependencies should be resolved automatically.
 
 ## Maven
 
-To execute the console application <code>ch.bfh.bti3001.quadstrike.ConsoleApp</code> with Maven, type:
+To execute the console application <code>ch.github.andreyscheurer.tictactoe.ConsoleApp</code> with Maven, type:
 
 > `mvn clean compile exec:java`
 

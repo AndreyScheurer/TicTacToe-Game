@@ -5,7 +5,7 @@
  * prohibition includes uploading this file, in whole or in part, to any AI services,
  * including but not limited to ChatGPT.
  */
-package ch.bfh.bti3001.quadstrike;
+package ch.github.andreyscheurer.tictactoe;
 
 /**
  * Represents a move in the QuadStrike game. A move is defined by its position

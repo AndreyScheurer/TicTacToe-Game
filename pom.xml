@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.bfh.bti3001</groupId>
-    <artifactId>QuadStrike</artifactId>
+    <artifactId>TicTacToe</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,8 +15,8 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <exec.maven.version>3.0.0</exec.maven.version>
         <appModule>quadstrike</appModule>
-        <mainFxClass>ch.bfh.bti3001.quadstrike.JavaFXApp</mainFxClass>
-        <mainClass>ch.bfh.bti3001.quadstrike.ConsoleApp</mainClass>
+        <mainFxClass>ch.github.andreyscheurer.tictactoe.JavaFXApp</mainFxClass>
+        <mainClass>ch.github.andreyscheurer.tictactoe.ConsoleApp</mainClass>
     </properties>
     <dependencies>
         <dependency>
