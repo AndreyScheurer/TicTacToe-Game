@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.bfh.bti3001.quadstrike.GUIController">
+    
+    <!-- Game Board Container -->
+    <Pane fx:id="gameBoard" AnchorPane.topAnchor="77.0" AnchorPane.leftAnchor="197.0" AnchorPane.rightAnchor="197.0" AnchorPane.bottomAnchor="150.0" />
+    
+    <!-- Left Section (Player Names) -->
+    <VBox spacing="15.0" AnchorPane.topAnchor="120.0" AnchorPane.leftAnchor="30.0">
+        <Label text="Player 1" />
+        <TextField fx:id="player1Name" promptText="Enter Player 1 Name" />
+        <Label text="Player 2" />
+        <TextField fx:id="player2Name" promptText="Enter Player 2 Name" />
+    </VBox>
+
+    <!-- Right Section (Moves and Status) -->
+    <VBox spacing="10.0" AnchorPane.topAnchor="56.0" AnchorPane.rightAnchor="10.0" prefHeight="442.0" prefWidth="110.0">
+        <Label alignment="CENTER" contentDisplay="BOTTOM" prefHeight="18.0" prefWidth="96.0" text="Moves" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+        <TextArea fx:id="movesList" editable="false" prefHeight="418.0" prefWidth="110.0" />
+      <Label fx:id="totalMoves" text="" prefHeight="18.0" prefWidth="95.0" />
+    </VBox>
+
+    <!-- Bottom Section (Game Status and Controls) -->
+    <VBox alignment="CENTER" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="253.0" AnchorPane.rightAnchor="253.0" prefHeight="111.0" prefWidth="272.0" spacing="10.0">
+        <Label fx:id="nextPlayer" prefHeight="18.0" prefWidth="275.0" text="Next player:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+        <Label fx:id="statusLabel" text="ALICE WINS THE GAME!" textFill="#f2330d" visible="false">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Label>
+        <Button onAction="#startNewGame" text="Start New Game">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </VBox>
+
+</AnchorPane>
