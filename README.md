@@ -29,15 +29,19 @@ Originally developed as a learning project, now shared on GitHub to showcase my 
 ---
 
 
-## 🛠️ Technologies Used
+## 🛠️ Key Skills & Tools
 
-| Technology / Tool | Purpose                          |
-|-------------------|----------------------------------|
-| Java 21           | Core programming language        |
-| JavaFX            | GUI framework                    |
-| FXML              | Interface layout definition      |
-| Maven             | Build and dependency management  |
-| Git & GitHub      | Version control and collaboration |
+| Category               | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| 💻 Programming Language | Java 21                                                                     |
+| 🎨 GUI Development      | JavaFX (FXML, Controllers, Scene Switching)                                 |
+| 🖥️ CLI Development      | Console-based game with user input handling                                 |
+| ⚙️ Build Tool           | Maven (`pom.xml`, plugins, dependency management)                           |
+| 🔧 Project Structure     | Java package naming, modular structure, clean code                         |
+| 📦 Execution            | Run via IntelliJ or terminal (Bash / PowerShell)                            |
+| 🔁 Git & GitHub         | Commit, push, pull, force push, branches, `.gitignore`, remote handling     |
+| 📝 Documentation        | `README.md` with setup instructions, screenshots, and run options           |
+| 🧠 Platform Awareness   | Shell compatibility (Bash vs. PowerShell), Maven run configuration          |
 
 ---
 
