@@ -22,11 +22,58 @@ Originally developed as a learning project, now shared on GitHub to showcase my 
 - Each move may trigger the board to expand
 - First player to align 4 symbols wins
 
-GUI:
+
 <img src="img/JavaFX4.png" width="700" alt="fig1"/>
 
+
+---
+
 ConsoleApp:
-<img src="img/ConsoleApp.png" width="700" alt="fig1"/>
+
+WELCOME TO THE QUADSTRIKE APP
+=============================
+
+Enter name of Player 1: Andrey
+Enter name of Player 2: Gregor
+
++–––+
+|   | 0
++–––+
+  0 
+
+Andrey > 0/0
++–––+–––+–––+
+|   |   |   | 1
++–––+–––+–––+
+|   | X |   | 0
++–––+–––+–––+
+|   |   |   | -1
++–––+–––+–––+
+ -1   0   1 
+
+Gregor > 1/0
++–––+–––+–––+–––+
+|   |   |   |   | 1
++–––+–––+–––+–––+
+|   | X | O |   | 0
++–––+–––+–––+–––+
+|   |   |   |   | -1
++–––+–––+–––+–––+
+ -1   0   1   2 
+
+Andrey > 0/-1
++–––+–––+–––+–––+
+|   |   |   |   | 1
++–––+–––+–––+–––+
+|   | X | O |   | 0
++–––+–––+–––+–––+
+|   | X |   |   | -1
++–––+–––+–––+–––+
+|   |   |   |   | -2
++–––+–––+–––+–––+
+ -1   0   1   2 
+
+Gregor > 
 
 ---
 
