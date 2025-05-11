@@ -28,11 +28,6 @@ GUI:
 ConsoleApp:
 <img src="img/ConsoleApp.png" width="700" alt="fig1"/>
 
-
-
-
-
-
 ---
 
 ## 🛠️ Technologies Used
