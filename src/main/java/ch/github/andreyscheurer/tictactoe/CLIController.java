@@ -15,7 +15,7 @@ public class CLIController {
      * Initialize the game
      */
     public void startGame() {
-        System.out.println("WELCOME TO THE QUADSTRIKE APP");
+        System.out.println("WELCOME TO THE QUADSTRIKE GAME");
         System.out.println("=============================");
         System.out.println();
 
